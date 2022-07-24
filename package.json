@@ -1,0 +1,26 @@
+{
+  "name": "fastify-auth0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.0.0",
+    "@fastify/jwt": "^6.3.1",
+    "@fastify/mongodb": "^6.0.1",
+    "boom": "^7.3.0",
+    "dotenv": "^16.0.1",
+    "express-jwt": "^7.7.5",
+    "fastify": "^4.3.0",
+    "fastify-auth0-verify": "^0.8.0",
+    "jwks-rsa": "^2.1.4",
+    "nodemon": "^2.0.19"
+  }
+}
