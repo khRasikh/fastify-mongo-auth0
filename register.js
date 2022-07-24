@@ -44,40 +44,4 @@ module.exports = function verify(app, opts, next) {
   //keep alive
   next();
 };
-/**Data Practice 1 */
-/*1. Insert data:
-url: http://localhost:4000/api/auth/generateAccessToken
-Method: POST
-{
-    "username": "rasikh",
-    "email": "kh.rasikh542@gmail.com",
-    "password": "rasik1h23"
-
-}
-2. Get the result
-result: 
-{
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhc2lraCIsImVtYWlsIjoia2gucmFzaWtoNTQyQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoicmFzaWsxaDIzIiwiaWF0IjoxNjU4Mzg1Njk1LCJleHAiOjE2NTg0NzIwOTV9.VusEFaCzOVLOHuvkVk676PJSPqoq_IzTmwuThqbP3_w",
-    "email": "kh.rasikh542@gmail.com"
-}
-*/
-
-// Verification of my Token
-/*
-URL: 
-Method: GET
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhc2lraCIsImVtYWlsIjoia2gucmFzaWtoNTQyQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoicmFzaWsxaDIzIiwiaWF0IjoxNjU4Mzg1Njk1LCJleHAiOjE2NTg0NzIwOTV9.VusEFaCzOVLOHuvkVk676PJSPqoq_IzTmwuThqbP3_w
-
-result will be: 
-{
-    "success": true,
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhc2lraCIsImVtYWlsIjoia2gucmFzaWtoNTQyQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoicmFzaWsxaDIzIiwiaWF0IjoxNjU4Mzg1Njk1LCJleHAiOjE2NTg0NzIwOTV9.VusEFaCzOVLOHuvkVk676PJSPqoq_IzTmwuThqbP3_w",
-    "decodedToken": {
-        "username": "rasikh",
-        "email": "kh.rasikh542@gmail.com",
-        "password": "rasik1h23",
-        "iat": 1658385695,
-        "exp": 1658472095
-    }
-}
-*/
+ 
